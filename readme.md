@@ -3,19 +3,16 @@ Author: Jacque, Shuo Shi
 
 Date: 04/05/2021
 ## Project structure
+/src/race_middle_blue.py only provides cv auto pilot functionality
+/src/race_car.py provides auto pilot and obstacle avoiding functionality.
 
 ## How to run
 ```bash
 cd ~/catkin
 catkin_make
 . devel/setup.bash
-
-<-------> TO DO
-roslaunch race_car xxx.py
-<--------->
+roslaunch race_car race_car.py
 ```
-
-
 
 ## Core algorithm
 ### CV auto pilot(Shuo)
