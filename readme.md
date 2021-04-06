@@ -26,3 +26,5 @@ The auto pilot algorithm is based on opencv library. The algorihtm is described 
 * If both sides exist, keep robot moving straight. If left side is missing, set angular velocity to make robot move in spiral to the left; if right side is missing, set angular velocity to make robot move in spiral to the right.
 
 ### Obstacle avoiding(Jacque)
+On the robot's way racing through the track, it will be able to avoid and pass by the object with minimum detour from its originally supposed track.
+It is still not able to avoid obstacle in the very middle of the track.
